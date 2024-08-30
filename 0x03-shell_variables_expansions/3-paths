@@ -1,2 +1,2 @@
 #!/bin/bash
-number=$PATH[-d count]
+echo $PATH | tr ':' '\n' | wc -l

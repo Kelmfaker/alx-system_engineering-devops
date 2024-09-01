@@ -1,2 +1,2 @@
-12-combinations
-echo {a..z}{a..z} | tr ' ''/n' | grep 'oo'
+#!/bin/bash
+echo {a..z}{a..z} | tr ' ''\n' | grep 'oo'
